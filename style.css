@@ -1,0 +1,26 @@
+.heading{
+    background:linear-gradient(rgb(0, 68, 255) 25%, rgb(252, 142, 160) 51%,orange 100%);
+    width:auto;
+    font-style: italic;
+   
+    display:flexbox ;
+    text-align: center;
+    text-decoration: lawngreen;
+}
+#fetchdata{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 30px;
+    flex-wrap:wrap;
+    padding:20px;
+    margin:auto;
+    background:rgb(180, 39, 161);
+    
+}
+.container{
+    background: greenyellow;
+    flex-wrap: wrap;
+    padding: 20px;
+    row-gap: 25px;
+}
